@@ -8,8 +8,7 @@ def read_file(filename=""):
         Args:
             filename: filename
 
-Raises
-    Exception: when the file can be opened
+raises exception: when the file can be opened
 
 """
 

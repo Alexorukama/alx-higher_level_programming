@@ -29,7 +29,7 @@ class Student:
                         d_list[satr] = obj[satr]
             return d_list
 
-        def reload_from_json(self, json):
-            """ Replaces all attributes of the Student instance """
-            for atr in json:
+    def reload_from_json(self, json):
+        """ Replaces all attributes of the Student instance """
+             for atr in json:
                 self.__dict__[atr] = json[atr]

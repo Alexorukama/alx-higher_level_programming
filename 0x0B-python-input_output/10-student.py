@@ -3,7 +3,6 @@
 """
 
 
-
 class Student:
     """ Class to create student instances """
 
@@ -31,6 +30,3 @@ class Student:
             return d_list
 
         return obj
-
-
-

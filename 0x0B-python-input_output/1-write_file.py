@@ -10,8 +10,7 @@ def write_file(filename="", text=""):
         filename: filename
         text: text to write
 
-Raises
-    Exception: when the file can be opened
+raises exception: when the file can be opened
 
 """
 
